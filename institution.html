@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Institution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Genesis Institution</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to Genesis Institution</h2>
+        <p>Empowering Education from the Comfort of Your Genesis</p>
+        <button onclick="scrollToSection('contact')">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Genesis Institution provides quality education and learning resources to students from all over the world, right from the comfort of their homes.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Interactive Courses</h3>
+            <p>Engage in interactive courses designed to provide a comprehensive learning experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Expert Instructors</h3>
+            <p>Learn from industry experts with years of experience in their respective fields.</p>
+        </div>
+        <div class="feature">
+            <h3>Flexible Schedule</h3>
+            <p>Study at your own pace with our flexible scheduling options.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"Genesis Institution has transformed my learning experience. The courses are well-structured and the instructors are fantastic!" - Jane Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"I love the flexibility that Genesis Institution offers. I can learn at my own pace and still have time for my other commitments." - John Smith</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" >Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Genesis Institution. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
